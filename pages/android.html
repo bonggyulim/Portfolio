@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Android Projects | 임봉규 Portfolio</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="../index.html" class="logo">Bonggyu Lim</a>
+      <button class="menu-toggle" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <section class="page-hero">
+      <div class="container">
+        <p class="section-label">Android Projects</p>
+        <h1>Notes API · 모임앱 · 시놀</h1>
+        <p class="page-desc">
+          Android와 모바일 구현 경험을 보여주는 프로젝트를 한 곳에 정리했습니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container android-page-grid">
+        <article class="detail-card">
+          <p class="project-kind">Personal Project</p>
+          <h2>Notes API (Flask + NLP)</h2>
+          <p class="body-muted">
+            Android 앱과 Flask 서버를 연결해 메모 CRUD를 구성하고,
+            감정 분석 및 요약 모델을 활용해 텍스트 데이터를 가공하는 흐름을 실험한 프로젝트입니다.
+          </p>
+          <div class="compare-grid">
+            <div class="compare-item">
+              <h4>모델 적용 전</h4>
+              <img src="../assets/note_before.png" alt="노트앱 모델 적용 전" />
+            </div>
+            <div class="compare-item">
+              <h4>모델 적용 후</h4>
+              <img src="../assets/note_after.png" alt="노트앱 모델 적용 후" />
+            </div>
+          </div>
+        </article>
+
+        <article class="detail-card">
+          <p class="project-kind">Android Team Project</p>
+          <h2>모임앱</h2>
+          <p class="body-muted">
+            모임 생성, 참여, 채팅 기능을 중심으로 커뮤니티 서비스 흐름을 구현한 Android 프로젝트입니다.
+          </p>
+          <div class="compare-grid media-tall">
+            <div class="compare-item">
+              <h4>모임 생성</h4>
+              <img src="../assets/moim_create.gif" alt="모임 생성" />
+            </div>
+            <div class="compare-item">
+              <h4>채팅 기능</h4>
+              <img src="../assets/moim_chat.gif" alt="채팅 기능" />
+            </div>
+          </div>
+        </article>
+
+        <article class="detail-card sinol-card">
+          <p class="project-kind">Intern Project</p>
+          <h2>시놀 MBTI</h2>
+          <p class="body-muted">
+            MBTI 테스트 결과, 추천, 포인트 적립, 공유 흐름을 포함한 인턴 프로젝트입니다.
+            API 연동과 상태 흐름 관리, 서비스 기능 구현 관점에서 참여했습니다.
+          </p>
+          <div class="sinol-large">
+            <img src="../assets/sinol-main.png" alt="시놀 메인 화면" />
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Bonggyu Lim. All rights reserved.</p>
+      <a href="../index.html" class="text-link">Home</a>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

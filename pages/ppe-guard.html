@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PPE Guard | 임봉규 Portfolio</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="../index.html" class="logo">Bonggyu Lim</a>
+      <button class="menu-toggle" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <section class="page-hero">
+      <div class="container">
+        <p class="section-label">Team Project · In Progress</p>
+        <h1>PPE Guard</h1>
+        <p class="page-desc">
+          사내망 배포형 환경을 고려한 영상/웹캠 기반 PPE 점검 시스템 프로젝트입니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container detail-layout">
+        <div class="detail-main">
+          <article class="detail-card">
+            <h2>프로젝트 개요</h2>
+            <p>
+              영상 업로드 또는 웹캠 입력을 기반으로 안전모, 조끼 등 PPE 착용 여부를 점검하고,
+              결과를 저장 및 조회할 수 있는 내부 시스템을 목표로 했습니다.
+            </p>
+          </article>
+
+          <article class="detail-card">
+            <h2>핵심 포인트</h2>
+            <ul>
+              <li>사내망 배포형 구조 전제</li>
+              <li>프론트엔드 → Flask API → 고객사 DB 구조</li>
+              <li>고객사 DB는 백엔드에서만 접근</li>
+              <li>보안성과 운영 통제성을 고려한 구조 설계</li>
+            </ul>
+          </article>
+
+          <article class="detail-card">
+            <h2>내가 중점적으로 본 부분</h2>
+            <ul>
+              <li>DB 직접 접근을 피하는 구조 분리</li>
+              <li>배포와 운영까지 고려한 문서 정리</li>
+              <li>MVP 범위 정의와 우선순위 구분</li>
+            </ul>
+          </article>
+        </div>
+
+        <aside class="detail-side">
+          <article class="detail-card sticky-card">
+            <h2>Project Info</h2>
+            <dl class="summary-list">
+              <div>
+                <dt>Type</dt>
+                <dd>Team Project</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd>진행 중</dd>
+              </div>
+              <div>
+                <dt>Tech</dt>
+                <dd>Python · Flask · Docker · OpenCV</dd>
+              </div>
+            </dl>
+          </article>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Bonggyu Lim. All rights reserved.</p>
+      <a href="../index.html" class="text-link">Home</a>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
