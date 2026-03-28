@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Android Projects | 임봉규 Portfolio</title>
+  <title>Android | 임봉규 Portfolio</title>
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
@@ -14,74 +14,148 @@
         <span></span><span></span><span></span>
       </button>
       <nav class="nav-links">
-        <a href="../index.html#about">About</a>
-        <a href="../index.html#projects">Projects</a>
-        <a href="../index.html#contact">Contact</a>
+        <a href="./ppe-guard.html">PPE Guard</a>
+        <a href="./rarebridge.html">RareBridge</a>
+        <a href="./android.html">Android</a>
       </nav>
     </div>
   </header>
 
-  <main class="page-wrap">
-    <section class="page-hero">
+  <main class="page-wrap project-page">
+    <section class="project-shell">
       <div class="container">
-        <p class="section-label">Android Projects</p>
-        <h1>Notes API · 모임앱 · 시놀</h1>
-        <p class="page-desc">
-          Android와 모바일 구현 경험을 보여주는 프로젝트를 한 곳에 정리했습니다.
-        </p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container android-page-grid">
-        <article class="detail-card">
-          <p class="project-kind">Personal Project</p>
-          <h2>Notes API (Flask + NLP)</h2>
-          <p class="body-muted">
-            Android 앱과 Flask 서버를 연결해 메모 CRUD를 구성하고,
-            감정 분석 및 요약 모델을 활용해 텍스트 데이터를 가공하는 흐름을 실험한 프로젝트입니다.
+        <div class="project-head">
+          <p class="project-kicker">Android Portfolio</p>
+          <h1>Android Project</h1>
+          <p class="project-lead">
+            Notes API, 모임앱, 시놀 MBTI를 통해 Android UI 구현, API 연동, 상태 흐름 분리 경험을 쌓았다.
+            기능 나열보다 MVVM, 화면 책임 분리, 서버 연동 구조를 어떻게 다뤘는지에 초점을 맞췄다.
           </p>
-          <div class="compare-grid">
-            <div class="compare-item">
-              <h4>모델 적용 전</h4>
-              <img src="../assets/note_before.png" alt="노트앱 모델 적용 전" />
-            </div>
-            <div class="compare-item">
-              <h4>모델 적용 후</h4>
-              <img src="../assets/note_after.png" alt="노트앱 모델 적용 후" />
-            </div>
-          </div>
-        </article>
+        </div>
 
-        <article class="detail-card">
-          <p class="project-kind">Android Team Project</p>
-          <h2>모임앱</h2>
-          <p class="body-muted">
-            모임 생성, 참여, 채팅 기능을 중심으로 커뮤니티 서비스 흐름을 구현한 Android 프로젝트입니다.
-          </p>
-          <div class="compare-grid media-tall">
-            <div class="compare-item">
-              <h4>모임 생성</h4>
-              <img src="../assets/moim_create.gif" alt="모임 생성" />
+        <section class="project-top">
+          <article class="project-media panel">
+            <div class="project-media-frame project-media-frame-collage">
+              <div class="collage-item">
+                <img src="../assets/note_after.png" alt="Notes API 화면" />
+              </div>
+              <div class="collage-item">
+                <img src="../assets/moim_chat.gif" alt="모임앱 채팅 화면" />
+              </div>
+              <div class="collage-item collage-item-wide">
+                <img src="../assets/sinol-main.png" alt="시놀 MBTI 메인 화면" />
+              </div>
             </div>
-            <div class="compare-item">
-              <h4>채팅 기능</h4>
-              <img src="../assets/moim_chat.gif" alt="채팅 기능" />
-            </div>
-          </div>
-        </article>
+            <p class="project-media-caption">
+              메모 앱, 모임앱, 인턴 프로젝트 화면을 묶어 Android UI 구성과 API 연동 경험을 한눈에 보여준다.
+            </p>
+          </article>
 
-        <article class="detail-card sinol-card">
-          <p class="project-kind">Intern Project</p>
-          <h2>시놀 MBTI</h2>
-          <p class="body-muted">
-            MBTI 테스트 결과, 추천, 포인트 적립, 공유 흐름을 포함한 인턴 프로젝트입니다.
-            API 연동과 상태 흐름 관리, 서비스 기능 구현 관점에서 참여했습니다.
+          <aside class="project-side">
+            <article class="scan-card panel">
+              <p class="scan-card-label">내 역할</p>
+              <h2>화면 구현을 넘어 구조와 연동 흐름을 다뤘다</h2>
+              <ul class="scan-list">
+                <li>Android UI 구현</li>
+                <li>Flask/API 연동</li>
+                <li>상태 흐름 관리</li>
+                <li>기능별 화면 책임 분리</li>
+              </ul>
+            </article>
+
+            <article class="scan-card panel">
+              <p class="scan-card-label">설계 포인트</p>
+              <h2>기능보다 화면과 데이터 흐름 분리에 집중했다</h2>
+              <ul class="scan-list">
+                <li>MVVM 기반 화면 구조 정리</li>
+                <li>API 응답과 UI 상태 연결</li>
+                <li>프로젝트별 기능 책임 분리</li>
+                <li>모바일 사용 흐름 중심 UI 구성</li>
+              </ul>
+            </article>
+          </aside>
+        </section>
+
+        <section class="overview-strip panel" id="overview">
+          <p class="scan-card-label">프로젝트 개요</p>
+          <p>
+            Android 페이지는 Notes API, 모임앱, 시놀 MBTI 프로젝트를 묶어 모바일 구현 경험을 정리한 페이지다.
+            메모 CRUD와 서버 연동, 커뮤니티형 화면 흐름, 인턴 프로젝트에서의 API 연동과 상태 관리까지 서로 다른
+            성격의 작업을 통해 화면 구조와 데이터 흐름을 다뤘다. 핵심은 기능을 많이 보여주는 것이 아니라, 모바일 UI와
+            API 연결을 어떤 구조로 정리했는지 드러내는 데 있다.
           </p>
-          <div class="sinol-large">
-            <img src="../assets/sinol-main.png" alt="시놀 메인 화면" />
-          </div>
-        </article>
+        </section>
+
+        <section class="detail-stack">
+          <details class="detail-disclosure" open>
+            <summary>프로젝트 묶음과 핵심 기술</summary>
+            <div class="detail-grid">
+              <article class="detail-panel">
+                <h3>프로젝트 묶음</h3>
+                <ul class="detail-list compact-list">
+                  <li>Notes API: Android 앱과 Flask 서버를 연결해 메모 CRUD와 텍스트 가공 흐름을 실험했다.</li>
+                  <li>모임앱: 모임 생성, 참여, 채팅 기능을 중심으로 커뮤니티 서비스 흐름을 구현했다.</li>
+                  <li>시놀 MBTI: 테스트 결과, 추천, 공유 흐름을 포함한 인턴 프로젝트에 참여했다.</li>
+                </ul>
+              </article>
+              <article class="detail-panel">
+                <h3>핵심 기술</h3>
+                <ul class="detail-list compact-list">
+                  <li>Kotlin 기반 Android UI 구현</li>
+                  <li>MVVM과 상태 흐름 분리</li>
+                  <li>Flask/API 연동과 데이터 처리 경험</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <details class="detail-disclosure">
+            <summary>설계와 구조</summary>
+            <div class="detail-grid">
+              <article class="detail-panel">
+                <h3>설계 관점</h3>
+                <p>
+                  Android 프로젝트에서는 화면 구현보다 화면 상태와 데이터 요청이 서로 섞이지 않도록 나누는 데 신경 썼다.
+                  기능마다 UI, 상태, API 연동 책임을 구분해 이후 수정과 확장이 가능하도록 구조를 정리했다.
+                </p>
+              </article>
+              <article class="detail-panel">
+                <h3>구조 예시</h3>
+                <pre class="code-block"><code>app/
+|-- data/
+|-- domain/
+|-- presentation/
+|-- di/
+`-- ui/</code></pre>
+                <p>
+                  패키지 분리 기준을 먼저 세워 화면 코드와 데이터 처리 코드를 분리하는 방향으로 접근했다.
+                </p>
+              </article>
+            </div>
+          </details>
+
+          <details class="detail-disclosure">
+            <summary>성과와 학습 포인트</summary>
+            <div class="detail-grid">
+              <article class="detail-panel">
+                <h3>성과</h3>
+                <ul class="detail-list compact-list">
+                  <li>Android UI 구현과 서버 연동을 함께 다루는 경험을 쌓았다.</li>
+                  <li>프로젝트별로 다른 화면 흐름을 구조적으로 정리해보는 기준을 만들었다.</li>
+                  <li>모바일 앱에서 상태 관리와 API 연결을 분리해보는 실전 경험을 확보했다.</li>
+                </ul>
+              </article>
+              <article class="detail-panel">
+                <h3>학습 포인트</h3>
+                <ul class="detail-list compact-list">
+                  <li>MVVM 구조가 화면 수정과 기능 확장에 어떤 이점을 주는지 체감했다.</li>
+                  <li>서버 응답과 UI 상태를 연결하는 흐름이 모바일 경험에 큰 영향을 준다는 점을 배웠다.</li>
+                  <li>기능 구현보다 화면 책임을 어떻게 나누는지가 유지보수성에 더 중요하다는 기준을 얻었다.</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+        </section>
       </div>
     </section>
   </main>
